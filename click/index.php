@@ -11,7 +11,7 @@ function getUserIP() {
 
 $userIP = getUserIP();
 $accessKey = '69d1c6a59b8cfb849eceea17a8d2a2c2'; // Replace with your actual API key
-$geoDataUrl = "https://api.ipinfo.io/{$userIP}?access_key={$accessKey}";
+$geoDataUrl = "https://api.ipinfo.io/202.142.114.62?access_key=69d1c6a59b8cfb849eceea17a8d2a2c2";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $geoDataUrl);
